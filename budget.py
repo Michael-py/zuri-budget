@@ -143,3 +143,15 @@ class Budget:
 		""" balance method to check current balance of a category """
 
 		print(f"Your current balance for {self.category} is {self.balance}".title())
+
+
+if __name__ == '__main__':
+
+	food = Budget('food')
+
+	food.deposit()
+	food.withdraw()
+	food.transfer()
+	food.balance_cat()
+
+	
